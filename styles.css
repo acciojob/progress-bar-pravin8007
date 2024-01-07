@@ -1,1 +1,57 @@
 /*  your css code here. If applicable */
+body {
+      font-family: Arial, sans-serif;
+      display : flex;
+      justify-content : center;
+      align-items : center;
+	 flex-direction : column ;
+      height : 100vh;
+      margin : 0;
+	  background-color : lightskyblue;
+    }
+
+    .progress-bar {
+      display: flex;
+      align-items: center;
+    }
+
+    .circle {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: white;
+	  border : 3px solid gray ;
+      /* margin: 0 10px; */
+		padding : 5px ;
+	  display : flex ;
+	  align-items : center;
+	  justify-content : center;
+    }
+.line{
+	height : 5px;
+	width : 30px;
+	background-color : gray;
+}
+    
+    .active {
+      border: 3px solid blue;
+    }
+    .active-line {
+		background-color : blue;
+	}
+
+    button {
+      margin: 0 10px;
+      padding: 8px 16px;
+      font-size : 16px;
+      cursor : pointer;
+		color : white;
+	  background-color : blue ;
+	  border : 0px solid blue ;
+	  border-radius : 4px ;
+    }
+
+    button:disabled {
+      opacity: 0.1;
+      cursor: not-allowed;
+    }
